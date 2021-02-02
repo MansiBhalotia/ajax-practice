@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.terms {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.terms li {
+  margin: 20px;
+  list-style: none;
+  position: relative;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.terms .active::before {
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  background-color: orange;
+  border-radius: 50px;
+  bottom: 0;
+}
+
+.content {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
